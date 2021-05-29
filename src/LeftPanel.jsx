@@ -8,33 +8,32 @@ const LeftPanel = (props) => {
                     General
                 </p>
                 <ul class="menu-list">
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Customers</a></li>
+                    <li>Dashboard</li>
+                    <li>Customers</li>
                 </ul>
                 <p class="menu-label">
                     Administration
                 </p>
                 <ul class="menu-list">
-                    <li><a href="#">Team Settings</a></li>
-                    <li>
-                        <a class="is-active">Manage Your Team</a>
+                    <li>Team Settings</li>
+                    <li>Manage Your Team
                         <ul>
-                            <li><a href="#">Members</a></li>
-                            <li><a href="#">Plugins</a></li>
-                            <li><a href="#">Add a member</a></li>
+                            <li>Members</li>
+                            <li>Plugins</li>
+                            <li>Add a member</li>
                         </ul>
                     </li>
-                    <li><a href="#">Invitations</a></li>
-                    <li><a href="#">Cloud Storage Environment Settings</a></li>
-                    <li><a href="#">Authentication</a></li>
+                    <li>Invitations</li>
+                    <li>Cloud Storage Environment Settings</li>
+                    <li>Authentication</li>
                 </ul>
                 <p class="menu-label">
                     Transactions
                 </p>
                 <ul class="menu-list">
-                    <li><a href="#">Payments</a></li>
-                    <li><a href="#">Transfers</a></li>
-                    <li><a href="#">Balance</a></li>
+                    <li>Payments</li>
+                    <li>Transfers</li>
+                    <li>Balance</li>
                 </ul>
             </aside>        
         </div>
