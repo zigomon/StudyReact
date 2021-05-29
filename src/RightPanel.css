@@ -1,0 +1,4 @@
+.rightPanel {
+    width: calc(100% - 200px);
+    box-sizing: border-box;
+}

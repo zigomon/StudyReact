@@ -1,0 +1,12 @@
+.layout {
+    width: 800px;
+    min-height: 400px;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+
