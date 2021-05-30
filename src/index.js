@@ -4,10 +4,35 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Layout from './Layout'
+import Top from './Top'
+import MainContent from './MainContent'
+import Docker from './docker/Docker'
+
+// コンテンツ変更
+const onChangeContent = (e, contentName) => {
+    e.preventDefault();
+    console.log("onChangeContent() " + contentName);
+    let component;
+    switch(contentName) {
+        case "Docker":
+            component = <MainContent content={<Docker />} />
+            break;
+        default:
+            component = <Top />
+            break;
+    }
+
+    ReactDOM.render(
+        <React.StrictMode>
+          <Layout content={component} onChangeContent={onChangeContent} />
+        </React.StrictMode>,
+        document.getElementById('root')
+      );
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <Layout />
+    <Layout content={<Top />} onChangeContent={onChangeContent} />
   </React.StrictMode>,
   document.getElementById('root')
 );

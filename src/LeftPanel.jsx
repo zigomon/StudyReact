@@ -3,18 +3,18 @@ import './LeftPanel.css'
 const LeftPanel = (props) => {
     return (
         <div className="leftPanel">
-            <aside class="menu">
-                <p class="menu-label">
+            <aside className="menu">
+                <p className="menu-label">
                     General
                 </p>
-                <ul class="menu-list">
+                <ul className="menu-list">
                     <li>Dashboard</li>
                     <li>Customers</li>
                 </ul>
-                <p class="menu-label">
+                <p className="menu-label">
                     Administration
                 </p>
-                <ul class="menu-list">
+                <ul className="menu-list">
                     <li>Team Settings</li>
                     <li>Manage Your Team
                         <ul>
@@ -27,10 +27,10 @@ const LeftPanel = (props) => {
                     <li>Cloud Storage Environment Settings</li>
                     <li>Authentication</li>
                 </ul>
-                <p class="menu-label">
+                <p className="menu-label">
                     Transactions
                 </p>
-                <ul class="menu-list">
+                <ul className="menu-list">
                     <li>Payments</li>
                     <li>Transfers</li>
                     <li>Balance</li>

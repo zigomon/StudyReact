@@ -1,32 +1,21 @@
-import LeftPanel from './LeftPanel'
-import RightPanel from './RightPanel'
 import Navbar from './Navbar'
 import './Layout.css'
 
 const Layout = (props) => {
+
     return (
         <div className="layout">
             <header className="header">
-                <Navbar />
-                <section className="hero myHero">
-                    <div className="hero-body">
-                        <p className="title titleText">
-                            Study React
-                        </p>
-                        <p className="subtitle titleText">
-                            Study React sub title
-                        </p>
-                    </div>
-                </section>
+                <Navbar onChangeContent={props.onChangeContent} />
             </header>
-            <div className="mainContent">
-                <LeftPanel />
-                <RightPanel />
+            <div id="mainContent">
+                {props.content}
             </div>
-            <footer className="footer">
-                Footer
+            <footer className="footer myfooter">
+                <p>COPYRIGHT Zigoro.</p>
             </footer>
         </div>
+
     );
 }
 

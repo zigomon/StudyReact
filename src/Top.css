@@ -1,0 +1,57 @@
+.top {
+    max-width: 1280px;
+    min-height: 800px;
+}
+
+.topContent {
+    overflow: hidden;
+    width: 100%;
+    min-height: 800px;
+    position : relative;
+}
+
+.topImage {
+    animation: animationZoom 60s ease-in 0s infinite normal;
+    position: absolute;
+    opacity: 0;
+}
+
+@keyframes animationZoom  {
+    0% { opacity: 0; }
+    3% { opacity: 1; }
+    25% { 
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    26% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.topContent img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.topContent img:nth-of-type(2) {
+    animation-delay: 15s;
+}
+
+.topContent img:nth-of-type(3) {
+    animation-delay: 30s;
+}
+
+.topContent img:nth-of-type(4) {
+    animation-delay: 45s;
+}
+
+.myMessage {
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 50px;
+    top: 450px;
+    color:blanchedalmond;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Yu Mincho", "Meiryo UI";
+    text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);
+}

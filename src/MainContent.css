@@ -1,0 +1,7 @@
+﻿.mainContent {
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
