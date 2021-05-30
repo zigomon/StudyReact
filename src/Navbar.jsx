@@ -1,4 +1,4 @@
-﻿import './NavVar.css'
+import './NavVar.css'
 
 const Navbar = (props) => {
     return (
