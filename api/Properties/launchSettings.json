@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "api": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ConnectionStringCosmosDB": "AccountEndpoint=https://cosmos-inogashiramokichi.documents.azure.com:443/;AccountKey=Yi8GfZOEgYIkpDRHZunAFwB8N98TDC3US7VANHKCMgqfdvjA7ADgrKInlL4fBcZxa3IhZbPBg1g3AxBiAuFRDA==;"
+      }
+    }
+  }
+}
