@@ -33,7 +33,7 @@ const LeftPanel = (props) => {
                 <ul className="menu-list">
                     <li>Payments</li>
                     <li>Transfers</li>
-                    <li>Balance</li>
+                    <li>Balance 2</li>
                 </ul>
             </aside>        
         </div>
